@@ -21,6 +21,8 @@
 		2C4303C31AF4067000E5DCBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4303A51AF4067000E5DCBC /* UIKit.framework */; };
 		2C4303CB1AF4067000E5DCBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C4303C91AF4067000E5DCBC /* InfoPlist.strings */; };
 		2C4303CD1AF4067000E5DCBC /* NSUserDefaultsPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4303CC1AF4067000E5DCBC /* NSUserDefaultsPracticeTests.m */; };
+		2C4303D81AF408CA00E5DCBC /* GMSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4303D71AF408CA00E5DCBC /* GMSignInViewController.m */; };
+		2C4303DB1AF409BE00E5DCBC /* GMCreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4303DA1AF409BE00E5DCBC /* GMCreateAccountViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		2C4303C81AF4067000E5DCBC /* NSUserDefaultsPracticeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserDefaultsPracticeTests-Info.plist"; sourceTree = "<group>"; };
 		2C4303CA1AF4067000E5DCBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2C4303CC1AF4067000E5DCBC /* NSUserDefaultsPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaultsPracticeTests.m; sourceTree = "<group>"; };
+		2C4303D61AF408CA00E5DCBC /* GMSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSignInViewController.h; sourceTree = "<group>"; };
+		2C4303D71AF408CA00E5DCBC /* GMSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSignInViewController.m; sourceTree = "<group>"; };
+		2C4303D91AF409BE00E5DCBC /* GMCreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMCreateAccountViewController.h; sourceTree = "<group>"; };
+		2C4303DA1AF409BE00E5DCBC /* GMCreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMCreateAccountViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				2C4303B01AF4067000E5DCBC /* GMAppDelegate.h */,
 				2C4303B11AF4067000E5DCBC /* GMAppDelegate.m */,
 				2C4303B31AF4067000E5DCBC /* Main.storyboard */,
+				2C4303D61AF408CA00E5DCBC /* GMSignInViewController.h */,
+				2C4303D71AF408CA00E5DCBC /* GMSignInViewController.m */,
+				2C4303D91AF409BE00E5DCBC /* GMCreateAccountViewController.h */,
+				2C4303DA1AF409BE00E5DCBC /* GMCreateAccountViewController.m */,
 				2C4303B61AF4067000E5DCBC /* GMViewController.h */,
 				2C4303B71AF4067000E5DCBC /* GMViewController.m */,
 				2C4303B91AF4067000E5DCBC /* Images.xcassets */,
@@ -252,6 +262,8 @@
 			files = (
 				2C4303B21AF4067000E5DCBC /* GMAppDelegate.m in Sources */,
 				2C4303B81AF4067000E5DCBC /* GMViewController.m in Sources */,
+				2C4303D81AF408CA00E5DCBC /* GMSignInViewController.m in Sources */,
+				2C4303DB1AF409BE00E5DCBC /* GMCreateAccountViewController.m in Sources */,
 				2C4303AE1AF4067000E5DCBC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
