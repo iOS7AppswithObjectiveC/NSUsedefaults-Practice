@@ -54,8 +54,17 @@
 
 - (IBAction)loginButtonPressed:(UIButton *)sender
 {
+    NSString *username = [[NSUserDefaults standardUserDefaults] objectForKey:USER_NAME];
+    NSString *password = [[NSUserDefaults standardUserDefaults] objectForKey:USER_PASSWORD];
     
-    [self performSegueWithIdentifier:@"toViewControllerSegue" sender:sender];
+    if ([self.usernameTextField.text isEqualToString:username] && [self.passwordTextField.text isEqualToString:password]){
+       [self performSegueWithIdentifier:@"toViewControllerSegue" sender:sender];
+    }
+    else {
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Username or password combo does not work" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alertView show];
+    }
+    
 }
 
 #pragma mark - GMCreateAccountViewController Delegate
